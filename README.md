@@ -119,6 +119,6 @@ docker build -t spark-earthquakes .
 docker run -d --network kafka-network --name spark-earthquakes_analyzer spark-earthquakes
 ```
 
-- In the browser, put the url "http://localhost:5601", go to "Kibana / Saved object", click on "import" and select "export.ndjson" in kibana folder
+- In the browser, put the url "http://localhost:5601", go to "Kibana / Saved Objects", click on "import" and select "export.ndjson" in kibana folder
 
 - Open left menu in Kibana, select Dashboard, select the imported dashboard for see all lens
