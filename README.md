@@ -12,6 +12,7 @@
 
 ## :notebook: Requirements
 - Docker
+- python
 - wget
 - A solution with, at least, 16GB of RAM
 
@@ -84,6 +85,11 @@ start_date = datetime.datetime(YYYY, M, DD)
 end_date = datetime.datetime(YYYY, M, DD)
 ```
 Replace YYYY, M, DD  with the date you want to consider (start_date < end_date)
+
+- Run python script:
+```bash
+python3 urls_dates.py
+```
 
 - Create a docker image of Logstash:
 ```bash
