@@ -1,5 +1,5 @@
 # QuakeMatch
-A tool for matching detection of antipodal earthquakes
+![QuakeMatch](https://github.com/Daedalus9/QuakeMatch/assets/50534107/f0de1c54-ba7f-46a0-ab32-c4ad00e6b26e)
 
 ## :twisted_rightwards_arrows: QuakeMatch Pipeline
 ![QuakeMatch Pipeline](https://github.com/Daedalus9/QuakeMatch/assets/50534107/21fcd7c9-1762-45da-8a8e-aed7e15b7468)
