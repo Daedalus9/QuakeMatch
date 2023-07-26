@@ -1,6 +1,9 @@
 # QuakeMatch
 A tool for matching detection of antipodal earthquakes
 
+## :twisted_rightwards_arrows: QuakeMatch Pipeline
+![QuakeMatch Pipeline](https://github.com/Daedalus9/QuakeMatch/assets/50534107/21fcd7c9-1762-45da-8a8e-aed7e15b7468)
+
 ## :notebook: Requirements
 - Docker
 - wget
