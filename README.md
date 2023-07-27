@@ -17,7 +17,7 @@
 - A solution with, at least, 16GB of RAM
 
 ## :zap: Usage
-- Install Docker in your system, than run the following command for create a docker network:
+- Install Docker in your system, then run the following command for create a docker network:
 ```bash
 docker network create kafka-network
 ```
