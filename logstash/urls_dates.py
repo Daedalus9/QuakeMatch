@@ -17,7 +17,7 @@ while current_date <= end_date:
     current_date += datetime.timedelta(days=1)
     i=i+1
 
-with open("seismic_portal_links.txt", "w") as file:
+with open("./logstash/seismic_portal_links.txt", "w") as file:
     for link in links:
         file.write(link + "\n")
 
