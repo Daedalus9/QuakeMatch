@@ -31,7 +31,7 @@ docker run -d \
   confluentinc/cp-zookeeper:latest
 ```
 
-- Wait for fully load of Zookeper, than create a container with Kafka:
+- Wait Zookeper to be fully loaded, then create a container with Kafka:
 ```bash
 docker run -d \
   --name kafka \
@@ -69,7 +69,7 @@ docker run -d \
 ```bash
 docker build -t elastic-image .
 ```
-Than run Elasticsearch:
+Then run Elasticsearch:
 ```bash
 docker run -d --name elasticsearch --network kafka-network -p 9200:9200 -p 9300:9300 -e "discovery.type=single-node" elastic-image
 ```
@@ -95,12 +95,12 @@ python3 urls_dates.py
 ```bash
 docker build -t logstash-image .
 ```
-Than run Logstash:
+Then run Logstash:
 ```bash
 docker run -d --name logstash-container --network kafka-network  logstash-image
 ```
 
-- Go to spark folder, than run:
+- Go to spark folder, then run:
 ```bash
 wget https://repo1.maven.org/maven2/org/elasticsearch/elasticsearch-spark-20_2.12/7.15.1/elasticsearch-spark-20_2.12-7.15.1.jar
 ```
